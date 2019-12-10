@@ -218,16 +218,21 @@ h6 {
   text-align: center;
   padding: 5%;
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   body {
+    background-color: green;
     display: flex;
-    background-color: red;
-    justify-content: row;
   }
 }
-@media (max-width: 500px) {
+@media (min-width: 600px) {
   body {
-    background-color: orange;
+    background-color: red;
+    display: flex;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background-color: yellow;
     display: flex;
   }
 }
