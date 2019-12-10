@@ -222,7 +222,6 @@ h6 {
   body {
     background-color: green;
     display: flex;
-    width:10%;
   }
 }
 @media (min-width: 600px) {
